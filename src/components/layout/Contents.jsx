@@ -1,7 +1,7 @@
-import React from 'react'
+import React from "react";
 
-const Contents = ({children}) => {
+const Contents = ({ children }) => {
   return <main id="main">{children}</main>;
 };
 
-export default Contents
+export default Contents;

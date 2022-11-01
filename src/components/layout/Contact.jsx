@@ -1,8 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const Contact = () => {
-  return <section className='cont__contact'>cont__contact</section>
-  
-}
+  return <section className="cont__contact">cont__contact</section>;
+};
 
-export default Contact
+export default Contact;

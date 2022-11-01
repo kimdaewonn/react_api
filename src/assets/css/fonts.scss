@@ -76,3 +76,63 @@
       url(../fonts/Rajdhani-SemiBold.ttf) format("truetype");
     font-display: swap;
   }
+
+
+
+  // dddddddd
+  @font-face {
+    font-family: 'Dongle';
+    font-weight: 300;
+    font-style: normal;
+    src: url('../fonts/DongleLight.eot');
+    src: url('../fonts/DongleLight.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/DongleLight.woff2') format('woff2'),
+         url('../fonts/DongleLight.woff') format('woff'),
+         url('../fonts/DongleLight.ttf') format("truetype");
+    font-display: swap;
+} 
+@font-face {
+    font-family: 'Dongle';
+    font-weight: 400;
+    font-style: normal;
+    src: url('../fonts/DongleRegular.eot');
+    src: url('../fonts/DongleRegular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/DongleRegular.woff2') format('woff2'),
+         url('../fonts/DongleRegular.woff') format('woff'),
+         url('../fonts/DongleRegular.ttf') format("truetype");
+    font-display: swap;
+} 
+@font-face {
+    font-family: 'Dongle';
+    font-weight: 700;
+    font-style: normal;
+    src: url('../fonts/DongleBold.eot');
+    src: url('../fonts/DongleBold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/DongleBold.woff2') format('woff2'),
+         url('../fonts/DongleBold.woff') format('woff'),
+         url('../fonts/DongleBold.ttf') format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+  font-family: 'GowunBatang';
+  font-weight: 400;
+  font-style: normal;
+  src: url('../fonts/GowunBatangRegular.eot');
+  src: url('../fonts/GowunBatangRegular.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/GowunBatangRegular.woff2') format('woff2'),
+       url('../fonts/GowunBatangRegular.woff') format('woff'),
+       url('../fonts/GowunBatangRegular.ttf') format("truetype");
+  font-display: swap;
+} 
+@font-face {
+  font-family: 'GowunBatang';
+  font-weight: 700;
+  font-style: normal;
+  src: url('../fonts/GowunBatangBold.eot');
+  src: url('../fonts/GowunBatangBold.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/GowunBatangBold.woff2') format('woff2'),
+       url('../fonts/GowunBatangBold.woff') format('woff'),
+       url('../fonts/GowunBatangBold.ttf') format("truetype");
+  font-display: swap;
+}

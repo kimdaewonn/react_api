@@ -1,37 +1,39 @@
 // 변수 설정
 :root {
-    --white: #fff;
-    --black: #000;
+  --white: #fff;
+  --black: #000;
 
-    --bg-light : #f0eeeb;
-    --bg-light-border : #dad8d1;
-    
-    --bg-dark : #000;
-    --bg-dark-border: #2e2e30;
+  --bg-light: #f0eeeb;
+  --bg-light-border: #dad8d1;
 
-    --font-size: 16px;
-    --font-height: 1.4;
-    --font-color: #202020;
-    --font-main: "SaolDisplay-Regular";
-    --font-sub1: "PlayfairDisplay-Regular";
-    --font-sub2: "Rajdhani-Display";
+  --bg-dark: #000;
+  --bg-dark-border: #2e2e30;
+
+  --font-size: 16px;
+  --font-height: 1.4;
+  --font-color: #202020;
+  --font-main: "SaolDisplay-Regular";
+  --font-sub1: "PlayfairDisplay-Regular";
+  --font-sub2: "Rajdhani-Display";
+  --font-kor1: "Dongle";
+  --font-kor2: "GowunBatang";
 }
 
 // border-box 초기화
 *,
 *::before,
 *::after {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 // 가로모드 글씨 확대 초기화
 html {
-    -webkit-text-size-adjust: 100%;
-    -moz-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
-    text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 }
 
 // 공백 초기화
@@ -72,31 +74,31 @@ input,
 select,
 table,
 textarea {
-    font-size: var(--font-size);
-    line-height: var(--font-height);
-    color: var(--font-color);
-    font-family: var(--font-main), -apple-system, BlinkMacSystemFont,
-    'Malgun Gothic', '맑은 고딕', 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
-    'Open Sans', 'Helvetica Neue', sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+  font-size: var(--font-size);
+  line-height: var(--font-height);
+  color: var(--font-color);
+  font-family: var(--font-main), -apple-system, BlinkMacSystemFont,
+    "Malgun Gothic", "맑은 고딕", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell,
+    "Open Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 // 링크 초기화
 a,
 a:hover,
 a:focus {
-    color: var(--font-color);
-    text-decoration: none;
+  color: var(--font-color);
+  text-decoration: none;
 }
 
 // 버튼 초기화
 // button,
 // html input[type="button"],
 // input[type="reset"],
-// input[type="submit"]{
-//     -webkit-appearance: button;
-//     cursor: pointer;
+// input[type="submit"] {
+//   -webkit-appearance: button;
+//   cursor: pointer;
 // }
 
 // 버튼 디자인 초기화
@@ -123,21 +125,25 @@ h5,
 h6 {
   font-weight: normal;
 }
+
 ul {
   list-style: none;
 }
+
 em,
 address {
   font-style: normal;
 }
+
 strong {
   font-weight: normal;
 }
+
 img {
   vertical-align: top;
   width: 100%;
 }
-// table
+
 table {
   border: 0;
   border-collapse: collaspe;
