@@ -1,0 +1,135 @@
+{
+  "type": "css",
+  "cssRefer": [
+    {
+      "num": 1,
+      "title": "background",
+      "desc": "background 속성은 배경을 설정합니다.",
+      "descBasic": "col",
+      "descApple": "flexbox",
+      "descVer": "CSS3",
+      "descStar": "★★★☆☆",
+      "definition": [
+        "background 속성은 배경을 설정합니다.",
+        "background 속성은 배경을 설정합니다."
+      ]
+    },
+    {
+      "num": 2,
+      "title": "border",
+      "desc": "border 속성은 테두리를 설정합니다.",
+      "descBasic": "border",
+      "descApple": "flexbox",
+      "descVer": "CSS3",
+      "descStar": "★★★☆☆",
+      "definition": [
+        "border 속성은 테두리를 설정합니다",
+        "border 속성은 테두리를 설정합니다."
+      ]
+    },
+    {
+      "num": 3,
+      "title": "padding",
+      "desc": "padding 속성은 안쪽 간격을 나타냅니다. ",
+      "descBasic": "padding",
+      "descApple": "flexbox",
+      "descVer": "CSS3",
+      "descStar": "★★★☆☆",
+      "definition": [
+        "padding 속성은 안쪽 간격을 나타냅니다.",
+        "padding 속성은 안쪽 간격을 나타냅니다."
+      ]
+    },
+    {
+      "num": 4,
+      "title": "columns",
+      "desc": "columns 속성은 내용을 그릴 때 사용할 열 수와 해당 열의 너비를 설정 합니다.",
+      "descBasic": "columns",
+      "descApple": "flexbox",
+      "descVer": "CSS3",
+      "descStar": "★★★★★",
+      "definition": [
+        "columns 속성은 내용을 그릴 때 사용할 열 수와 해당 열의 너비를 설정 합니다.",
+        "columns 속성은 내용을 그릴 때 사용할 열 수와 해당 열의 너비를 설정 합니다."
+      ]
+    },
+    {
+      "num": 5,
+      "title": "display",
+      "desc": "display 속성은 블록과 인라인 요소중 어느쪽으로 처리할지와 함께,float, grid, flex 처럼 자식 요소를 배치할 때 사용할 레이아웃을 설정 합니다.",
+      "descBasic": "border : stretch",
+      "descApple": "flexbox",
+      "descVer": "CSS3",
+      "descStar": "★★★☆☆",
+      "definition": [
+        "display 속성은 블록과 인라인 요소중 어느쪽으로 처리할지와 함께,float, grid, flex 처럼 자식 요소를 배치할 때 사용할 레이아웃을 설정 합니다.",
+        "display 속성은 블록과 인라인 요소중 어느쪽으로 처리할지와 함께,float, grid, flex 처럼 자식 요소를 배치할 때 사용할 레이아웃을 설정 합니다."
+      ]
+    },
+    {
+      "num": 6,
+      "title": "filter",
+      "desc": "filter 속성은 흐림 효과나 변형 효과를 나타냅니다.",
+      "descBasic": "filter",
+      "descApple": "flexbox",
+      "descVer": "CSS3",
+      "descStar": "★★★☆☆",
+      "definition": [
+        "filter 속성은 흐림 효과나 변형 효과를 나타냅니다.",
+        "filter 속성은 흐림 효과나 변형 효과를 나타냅니다."
+      ]
+    },
+    {
+      "num": 7,
+      "title": "font",
+      "desc": "font 속성은 텍스트에 대해 설정합니다.",
+      "descBasic": "font",
+      "descApple": "flexbox",
+      "descVer": "CSS3",
+      "descStar": "★★★★★",
+      "definition": [
+        "font 속성은 텍스트에 대해 설정합니다.",
+        "font 속성은 텍스트에 대해 설정합니다."
+      ]
+    },
+    {
+      "num": 8,
+      "title": "font-style",
+      "desc": "font-style 속성은 글꼴의 스타일을 설정 합니다.",
+      "descBasic": "font-style",
+      "descApple": "flexbox",
+      "descVer": "CSS3",
+      "descStar": "★★★★★",
+      "definition": [
+        "font-style 속성은 글꼴의 스타일을 설정 합니다.",
+        "font-style 속성은 글꼴의 스타일을 설정 합니다."
+      ]
+    },
+    {
+      "num": 9,
+      "title": "grid",
+      "desc": "grid 속성은 표 형태의 레이아웃을 만들 수 있는 속성입니다.",
+      "descBasic": "grid",
+      "descApple": "flexbox",
+      "descVer": "CSS3",
+      "descStar": "★★★★★",
+      "definition": [
+        "grid 속성은 표 형태의 레이아웃을 만들 수 있는 속성입니다.",
+        "grid 속성은 표 형태의 레이아웃을 만들 수 있는 속성입니다."
+      ]
+    },
+    {
+      "num": 10,
+      "title": "z-index",
+      "desc": "z-index 속성은 가상요소의 z축에서의 위치를 설정합니다.",
+      "descBasic": "z-index",
+      "descApple": "flexbox",
+      "descVer": "CSS3",
+      "descStar": "★★★☆☆",
+      "definition": [
+        "z-index 속성은 가상요소의 z축에서의 위치를 설정합니다.",
+        "z-index 속성은 가상요소의 z축에서의 위치를 설정합니다."
+      ]
+    }
+  ]
+}

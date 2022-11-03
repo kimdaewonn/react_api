@@ -16,7 +16,7 @@ const ReferCont = ({ references }) => {
     <section className="cont__refer">
       <div className="container">
         <div className="refer__inner">
-          <h2>CSS</h2>
+          <h2>HTML</h2>
           <ul className="refer__list">
             {references.map((refer, idx) => (
               <ReferText
