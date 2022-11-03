@@ -6,17 +6,21 @@ import Footer from "../layout/Footer";
 import Title from "../layout/Title";
 import ReferCont from "../include/ReferCont";
 import Contact from "../layout/Contact";
+
 const Reference = () => {
   const [references, setRefernces] = useState([]);
   useEffect(() => {
     fetch(
-      "https://raw.githubusercontent.com/kimdaewonn/react_api/main/src/utils/htmlRefer.json"
+      "https://raw.githubusercontent.com/kimdaewonn/react_api/main/src/utils/htmlRefer.json",
+      "https://raw.githubusercontent.com/kimdaewonn/react_api/main/src/utils/cssRefer.json"
     )
       .then((response) => response.json())
       // .then((result) => console.log(result))
       .then((result) => setRefernces(result.htmlRefer))
+      .then((result) => setRefernces(result.cssRefer))
       .catch((error) => console.log("error", error));
   }, []);
+
   return (
     <>
       <Header />
@@ -29,4 +33,5 @@ const Reference = () => {
     </>
   );
 };
+
 export default Reference;

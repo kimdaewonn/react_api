@@ -28,6 +28,19 @@ const ReferCont = ({ references }) => {
               />
             ))}
           </ul>
+
+          <h2>CSS</h2>
+          <ul className="refer__list">
+            {references.map((refer, idx) => (
+              <ReferText
+                key={idx}
+                title={refer.title}
+                num={refer.num}
+                desc={refer.desc}
+                star={refer.descStar}
+              />
+            ))}
+          </ul>
         </div>
       </div>
     </section>
