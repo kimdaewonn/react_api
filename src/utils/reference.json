@@ -1,0 +1,132 @@
+{
+  "type": "css",
+  "cssRefer": [
+    {
+      "num": 1,
+      "title": "col",
+      "desc": "col 속성은 콘텐츠 아이템의 상하관계 정렬 상태를 설정합니다.",
+      "descBasic": "col",
+      "descApple": "flexbox",
+      "descVer": "CSS3",
+      "descStar": "★★★☆☆",
+      "definition": [
+        "col 속성은 표의 열을 나타내며, 열에 속하는 칸에 공통된 의미를 부여할 때 사용합니다 colgroup 안에서 찾을 수 있습니다.",
+        "col 속성은 표의 열을 나타내며, 열에 속하는 칸에 공통된 의미를 부여할 때 사용합니다 colgroup 안에서 찾을 수 있습니다."
+      ]
+    },
+    {
+      "num": 2,
+      "title": "align-items",
+      "desc": "align-items 속성은 콘텐츠 아이템의 상하관계 정렬 상태를 설정합니다.",
+      "descBasic": "align-items : stretch",
+      "descApple": "flexbox",
+      "descVer": "CSS3",
+      "descStar": "★★★☆☆",
+      "definition": [
+        "align-items 속성은 콘텐츠 아이템의 상하관계 정렬 상태를 설정합니다.",
+        "align-items 속성은 콘텐츠 아이템의 상하관계 정렬 상태를 설정합니다ㅇㅇ."
+      ]
+    },
+    {
+      "num": 3,
+      "title": "audio",
+      "desc": "audio 속성은  문서에 소리 콘텐츠를 포함할 때 사용합니다.",
+      "descBasic": "audio",
+      "descApple": "flexbox",
+      "descVer": "CSS3",
+      "descStar": "★★★☆☆",
+      "definition": [
+        "audio 문서에 소리 콘텐츠를 포함할 때 사용합니다.",
+        "audio 문서에 소리 콘텐츠를 포함할 때 사용합니다."
+      ]
+    },
+    {
+      "num": 4,
+      "title": "br",
+      "desc": "br 속성은 줄바꾸기에 사용",
+      "descBasic": "br",
+      "descApple": "flexbox",
+      "descVer": "CSS3",
+      "descStar": "★★★★★",
+      "definition": ["br 속성은 줄바꾸기에 사용", "br 속성은 줄바꾸기에 사용"]
+    },
+    {
+      "num": 5,
+      "title": "border",
+      "desc": "border 속성은 테두리를 설정합니다.",
+      "descBasic": "border : stretch",
+      "descApple": "flexbox",
+      "descVer": "CSS3",
+      "descStar": "★★★★★",
+      "definition": [
+        "border 속성은 테두리를 설정합니다.",
+        "border 속성은 테두리를 설정합니다."
+      ]
+    },
+    {
+      "num": 6,
+      "title": "margin",
+      "desc": "margin 속성은 콘텐츠 아이템의 간격을 설정합니다.",
+      "descBasic": "margin",
+      "descApple": "flexbox",
+      "descVer": "CSS3",
+      "descStar": "★★★★★",
+      "definition": [
+        "margin 속성은 콘텐츠 아이템의 간격을 설정합니다.",
+        "margin 속성은 콘텐츠 아이템의 간격을 설정합니다."
+      ]
+    },
+    {
+      "num": 7,
+      "title": "padding",
+      "desc": "padding 속성은 콘텐츠 아이템의 내부 간격을 설정합니다.",
+      "descBasic": "padding",
+      "descApple": "flexbox",
+      "descVer": "CSS3",
+      "descStar": "★★★★★",
+      "definition": [
+        "padding 속성은 콘텐츠 아이템의 내부 간격을 설정합니다.",
+        "padding 속성은 콘텐츠 아이템의 내부 간격을 설정합니다."
+      ]
+    },
+    {
+      "num": 8,
+      "title": "border-radius",
+      "desc": "border-radius 속성은 테두리의 각진 정도를 설정합니다.",
+      "descBasic": "border-radius",
+      "descApple": "flexbox",
+      "descVer": "CSS3",
+      "descStar": "★★★★★",
+      "definition": [
+        "border-radius 속성은 테두리의 각진 정도를 설정합니다.",
+        "border-radius 속성은 테두리의 각진 정도를 설정합니다."
+      ]
+    },
+    {
+      "num": 9,
+      "title": "a",
+      "desc": "a 속성은 다른 페이지로 이동하게 해줍니다.",
+      "descBasic": "a",
+      "descApple": "flexbox",
+      "descVer": "CSS3",
+      "descStar": "★★★★★",
+      "definition": [
+        "a 속성은 다른 페이지로 이동하게 해줍니다.",
+        "a 속성은 다른 페이지로 이동하게 해줍니다."
+      ]
+    },
+    {
+      "num": 10,
+      "title": "z-index",
+      "desc": "z-index 속성은 콘텐츠 아이템의 보이는 선후관계를 설정합니다.",
+      "descBasic": "z-index",
+      "descApple": "flexbox",
+      "descVer": "CSS3",
+      "descStar": "★★★★★",
+      "definition": [
+        "z-index 속성은 콘텐츠 아이템의 보이는 선후관계를 설정합니다.",
+        "z-index 속성은 콘텐츠 아이템의 보이는 선후관계를 설정합니다."
+      ]
+    }
+  ]
+}
