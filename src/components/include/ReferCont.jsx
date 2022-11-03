@@ -21,10 +21,10 @@ const ReferCont = ({ references }) => {
             {references.map((refer, idx) => (
               <ReferText
                 key={idx}
+                title={refer.title}
                 num={refer.num}
                 desc={refer.desc}
                 star={refer.descStar}
-                title={refer.title}
               />
             ))}
           </ul>

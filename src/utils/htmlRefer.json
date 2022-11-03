@@ -1,10 +1,10 @@
 {
   "type": "css",
-  "cssRefer": [
+  "htmlRefer": [
     {
       "num": 1,
       "title": "col",
-      "desc": "col 속성은 콘텐츠 아이템의 상하관계 정렬 상태를 설정합니다.",
+      "desc": "col은 콘텐츠 아이템의 상하관계 정렬 상태를 설정합니다.",
       "descBasic": "col",
       "descApple": "flexbox",
       "descVer": "CSS3",
@@ -16,15 +16,15 @@
     },
     {
       "num": 2,
-      "title": "align-items",
-      "desc": "align-items 속성은 콘텐츠 아이템의 상하관계 정렬 상태를 설정합니다.",
-      "descBasic": "align-items : stretch",
+      "title": "body",
+      "desc": "body는 콘텐츠 아이템의 상하관계 정렬 상태를 설정합니다.",
+      "descBasic": "body",
       "descApple": "flexbox",
       "descVer": "CSS3",
       "descStar": "★★★☆☆",
       "definition": [
-        "align-items 속성은 콘텐츠 아이템의 상하관계 정렬 상태를 설정합니다.",
-        "align-items 속성은 콘텐츠 아이템의 상하관계 정렬 상태를 설정합니다ㅇㅇ."
+        "body는 HTML 문서의 내용을 나타냅니다.",
+        "body는 한 문서에 하나의 body 요소만 존재할 수 있습니다."
       ]
     },
     {
@@ -52,54 +52,54 @@
     },
     {
       "num": 5,
-      "title": "border",
-      "desc": "border 속성은 테두리를 설정합니다.",
+      "title": "colgroup",
+      "desc": "colgroup은 표의 열을 묶는 그룹을 정의합니다.",
       "descBasic": "border : stretch",
       "descApple": "flexbox",
       "descVer": "CSS3",
-      "descStar": "★★★★★",
+      "descStar": "★★★☆☆",
       "definition": [
-        "border 속성은 테두리를 설정합니다.",
-        "border 속성은 테두리를 설정합니다."
+        "colgroup은 표의 열을 묶는 그룹을 정의합니다.",
+        "colgroup은 표의 열을 묶는 그룹을 정의합니다."
       ]
     },
     {
       "num": 6,
-      "title": "margin",
-      "desc": "margin 속성은 콘텐츠 아이템의 간격을 설정합니다.",
-      "descBasic": "margin",
+      "title": "data",
+      "desc": "data는 주어진 콘텐츠를 기계가 읽을 수 있는 해석본과 연결합니다.",
+      "descBasic": "data",
       "descApple": "flexbox",
       "descVer": "CSS3",
-      "descStar": "★★★★★",
+      "descStar": "★★★☆☆",
       "definition": [
-        "margin 속성은 콘텐츠 아이템의 간격을 설정합니다.",
-        "margin 속성은 콘텐츠 아이템의 간격을 설정합니다."
+        "data는 주어진 콘텐츠를 기계가 읽을 수 있는 해석본과 연결합니다.",
+        "data는 주어진 콘텐츠를 기계가 읽을 수 있는 해석본과 연결합니다."
       ]
     },
     {
       "num": 7,
-      "title": "padding",
-      "desc": "padding 속성은 콘텐츠 아이템의 내부 간격을 설정합니다.",
-      "descBasic": "padding",
+      "title": "del",
+      "desc": "del은 문서에서 제거된 텍스트의 범위를 나타냅니다.",
+      "descBasic": "del",
       "descApple": "flexbox",
       "descVer": "CSS3",
       "descStar": "★★★★★",
       "definition": [
-        "padding 속성은 콘텐츠 아이템의 내부 간격을 설정합니다.",
-        "padding 속성은 콘텐츠 아이템의 내부 간격을 설정합니다."
+        "del은 문서에서 제거된 텍스트의 범위를 나타냅니다.",
+        "del은 문서에서 제거된 텍스트의 범위를 나타냅니다."
       ]
     },
     {
       "num": 8,
-      "title": "border-radius",
-      "desc": "border-radius 속성은 테두리의 각진 정도를 설정합니다.",
-      "descBasic": "border-radius",
+      "title": "div",
+      "desc": "div는 플로우 콘텐츠를 위한 통용 컨테이너입니다.",
+      "descBasic": "div",
       "descApple": "flexbox",
       "descVer": "CSS3",
       "descStar": "★★★★★",
       "definition": [
-        "border-radius 속성은 테두리의 각진 정도를 설정합니다.",
-        "border-radius 속성은 테두리의 각진 정도를 설정합니다."
+        "div는 플로우 콘텐츠를 위한 통용 컨테이너입니다.",
+        "div는  CSS로 꾸미기 전에는 콘텐츠나 레이아웃에 어떤 영향도 주지 않습니다."
       ]
     },
     {
@@ -117,15 +117,15 @@
     },
     {
       "num": 10,
-      "title": "z-index",
-      "desc": "z-index 속성은 콘텐츠 아이템의 보이는 선후관계를 설정합니다.",
-      "descBasic": "z-index",
+      "title": "em",
+      "desc": "em은 요소는 텍스트의 강세를 나타냅니다.",
+      "descBasic": "em",
       "descApple": "flexbox",
       "descVer": "CSS3",
-      "descStar": "★★★★★",
+      "descStar": "★★★☆☆",
       "definition": [
-        "z-index 속성은 콘텐츠 아이템의 보이는 선후관계를 설정합니다.",
-        "z-index 속성은 콘텐츠 아이템의 보이는 선후관계를 설정합니다."
+        "em은 요소는 텍스트의 강세를 나타냅니다.",
+        "em을 중첩하면 더 큰 강세를 뜻하게 됩니다."
       ]
     }
   ]
