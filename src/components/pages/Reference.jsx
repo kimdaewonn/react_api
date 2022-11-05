@@ -8,13 +8,14 @@ import ReferCont from "../include/ReferCont";
 import Contact from "../layout/Contact";
 
 const Reference = () => {
+  const [references, setReferences] = useState([]);
   useEffect(() => {
     fetch(
       "https://raw.githubusercontent.com/kimdaewonn/react_api/main/src/utils/cssRefer.json"
     )
       .then((response) => response.json())
       // .then((result) => console.log(result))
-      .then((result) => setRefernces(result.cssRefer))
+      .then((result) => setReferences(result.cssRefer))
       .catch((error) => console.log("error", error));
   }, []);
 
