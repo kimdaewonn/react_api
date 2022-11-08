@@ -1,4 +1,13 @@
 import React from "react";
+
+import { Swiper, SwiperSlide } from "swiper/react";
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+// import required modules
+import { Autoplay, Pagination, Navigation } from "swiper";
+
 function MoviePopular(props) {
   return (
     <li>
@@ -21,10 +30,32 @@ const MovieList = (props) => {
     <section className="cont__movie">
       <div className="container">
         <div className="movie__pop">
+          <div className="movie__popname">인기 순위</div>
+
           <ul>
-            {props.onPopular.map((onPopular, index) => (
-              <MoviePopular key={index} movie={onPopular} index={index} />
-            ))}
+            <Swiper
+              slidesPerView={3}
+              spaceBetween={30}
+              centeredSlides={true}
+              autoplay={{
+                delay: 2500,
+                disableOnInteraction: false,
+              }}
+              pagination={{
+                clickable: true,
+              }}
+              navigation={true}
+              modules={[Autoplay, Pagination, Navigation]}
+              className="mySwiper"
+            >
+              {props.onPopular.map((onPopular, index) =>
+                index < 10 ? (
+                  <SwiperSlide key={index}>
+                    <MoviePopular key={index} movie={onPopular} index={index} />
+                  </SwiperSlide>
+                ) : null
+              )}
+            </Swiper>
           </ul>
         </div>
       </div>
