@@ -13,8 +13,8 @@ const Movie = () => {
   const [movies, setMovies] = useState([]);
   const [popular, setPopular] = useState([]);
 
-  const search = (query) => {
-    fetch(
+  const search = async (query) => {
+    await fetch(
       `https://api.themoviedb.org/3/search/movie?api_key=89c1b2839fbe77981253c85111ff2d87&query=${query}`
     )
       .then((response) => response.json())
