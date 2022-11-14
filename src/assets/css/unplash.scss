@@ -1,0 +1,29 @@
+.unsplash__inner {
+  h2 {
+    color: #fff;
+    font-size: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .swiper-wrapper {
+    height: 250px;
+  }
+  ul {
+    column-count: 4;
+    column-gap: 20px;
+    width: 100%;
+    li {
+      margin-bottom: 20px;
+
+      img {
+        border-radius: 5px;
+      }
+    }
+  }
+}
+.container button {
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 700;
+}

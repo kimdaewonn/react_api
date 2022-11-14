@@ -1,0 +1,27 @@
+.unsplash__inner {
+  ul {
+    column-count: 4;
+    column-gap: 20px;
+    width: 100%;
+
+    li {
+      margin-bottom: 20px;
+
+      img {
+        border-radius: 5px;
+      }
+    }
+  }
+}
+.youtube__inner {
+  width: 70%;
+  margin-left: 193px;
+  margin-top: -50px;
+  h2 {
+    color: #fff;
+    font-size: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: 700;
+  }
+}

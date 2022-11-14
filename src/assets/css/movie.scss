@@ -1,7 +1,7 @@
 .movie__pop {
   width: 100%;
   overflow-x: auto;
-  background: rgb(29, 28, 28);
+  background: rgb(12 11 11);
   border-radius: 50px;
   margin-bottom: 30px;
 
@@ -120,17 +120,19 @@
     width: 100%;
     padding: 14px 30px;
     font-family: var(--font-kor2);
+    margin-top: 50px;
   }
   button {
     position: absolute;
-    right: 6px;
-    top: 5px;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
+    right: 0px;
+    top: 50px;
+    width: 70px;
+    height: 55px;
+    border-radius: 30% !important;
     border: 0;
     font-family: var(--font-kor2);
     cursor: pointer;
     z-index: 1000;
+    white-space: nowrap;
   }
 }
