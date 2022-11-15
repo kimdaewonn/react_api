@@ -28,7 +28,7 @@ const UnsplashBtn = ({ onSearch }) => {
     onSearch("winter");
   };
   const onClick5 = () => {
-    onSearch("soccer");
+    onSearch("food");
   };
   const onClick6 = () => {
     onSearch("space");
@@ -58,7 +58,7 @@ const UnsplashBtn = ({ onSearch }) => {
           winter
         </button>
         <button type="submit" onClick={onClick5}>
-          soccer
+          food
         </button>
         <button type="submit" onClick={onClick6}>
           space
